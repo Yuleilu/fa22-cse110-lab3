@@ -1,0 +1,188 @@
+body{
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-size: cover;
+}
+
+h1{
+    color:blue;
+    text-align: center;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+  }
+
+#newbusiness{
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 50px;
+    width: 80%;
+    position: relative;
+    top: 10px;
+    left: 10%;
+}
+
+#bigdeal{
+    border-style: solid;
+    border-color: #999;
+    border-width: 1px;
+    border-radius: 3px;
+    display: block;
+    height: auto;
+    width: 70%;
+    max-width: 1000px;
+    min-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#attendanlist{
+    border-style: solid;
+    border-color: #333;
+    border-width: 1px;
+    border-radius: 10px;
+    display: block;
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 800px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+html {
+    font-size: 16px;
+  }
+  
+.rems li {
+    font-size: 1.3rem;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+  
+
+.footer {
+    border-style: none;
+    display: inline;
+    height: 30px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+  }
+
+  
+
+#FOOD{
+    background-color: aqua ;
+}
+
+#presented:hover{
+    background-color: bisque;
+    padding: 20px;
+    min-width: 800px;
+}
+
+*:active{
+    box-shadow: 2px 2px 5px #fc894d;
+}
+
+/* Flexbox layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: #f1c40f;
+    margin: 10px;
+  }
+  
+  /* Grid layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .grid-item {
+    background-color: #2ecc71;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: row;
+    }
+    
+    .item {
+      width: 80px;
+      height: 80px;
+    }
+    
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+/* Descendant Combinator */
+.parent p {
+    color: blue;
+  }
+  
+  /* Child Combinator */
+  .parent > .child {
+    border: 1px solid black;
+  }
+  
+  /* General sibling combinator */
+  .child ~ p {
+    font-weight: bold;
+  }
+  
+  /* Adjacent sibling combinator */
+  h2 + .child {
+    margin-top: 0;
+  }
+  
+  /* Combining Two Selectors */
+  .child p {
+    font-style: italic;
+  }
+  
