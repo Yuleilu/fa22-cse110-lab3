@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-[WebSite URL](https://yuleilu.github.io/Lab2_Starter/)
+[WebSite URL](https://yuleilu.github.io/sp23-cse110-lab3)
