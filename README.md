@@ -1,3 +1,3 @@
 # Lab 3
 
-[WebSite URL](https://yuleilu.github.io/sp23-cse110-lab3)
+[WebSite URL](https://yuleilu.github.io/fa22-cse110-lab3/)
